@@ -29,6 +29,8 @@ func (job *TaxIncludedPriceJob) LoadData() error {
 	}
 
 	job.InputPrices = prices
+
+	return nil
 }
 
 func (job *TaxIncludedPriceJob) Process() error {
